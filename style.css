@@ -43,3 +43,9 @@
     font-size:25px;
     font-weight:100;
 }
+
+#ctr #greet-box #bye {
+    color:palevioletred;
+    font-size:30px;
+    font-weight:100;
+}
