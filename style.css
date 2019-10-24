@@ -49,3 +49,26 @@
     font-size:30px;
     font-weight:100;
 }
+
+::-webkit-scrollbar {
+    margin-right: 5px;
+    background-color:rgba(0,0,0,0.05);
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+   /*box-shadow: 0 0 2px rgba(0,0,0,0.3);*/
+}
+::-webkit-scrollbar-thumb {
+    border:none;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.2);
+    -webit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #bbb;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3) inset;
+}
+::-webkit-scrollbar-thumb:hover { 
+	background: rgba(0,0,0,0.2); 
+}
